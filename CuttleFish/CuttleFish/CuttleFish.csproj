@@ -132,7 +132,8 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="ViewModel\Model\" />
+    <Folder Include="Model\" />
+    <Folder Include="ViewModel\" />
     <Folder Include="ViewPage\" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
