@@ -32,14 +32,16 @@ namespace CuttleFish.ViewPage
 
         }
 
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
+        private void Button_Click2(object sender, RoutedEventArgs e)
 
+        {
+            this.Frame.Navigate(typeof(OrdreKatalog));
         }
 
-        private void TextBlock_SelectionChanged(object sender, RoutedEventArgs e)
-        {
 
-        }
+
+
+
+
     }
 }
