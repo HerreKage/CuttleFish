@@ -6,15 +6,19 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
+    
 
     <Grid Background="BlanchedAlmond">
         <Button Content= "ProduktListe" HorizontalAlignment="Left" Margin="187,167,0,0" VerticalAlignment="Top" Width="127" Click="Button_Click"/>
-        <Button Content="Ordre" HorizontalAlignment="Left" Margin="533,167,0,0" VerticalAlignment="Top" Width="127"/>
-        <Button Content="Kunder" HorizontalAlignment="Left" Margin="893,167,0,0" VerticalAlignment="Top" Width="127" Click="Button_Click_1"/>
+
+        <Button Content="Ordre" HorizontalAlignment="Left" Margin="533,167,0,0" VerticalAlignment="Top" Width="127" Click="Button_Click2"/>
+
+
+        <Button Content="Kunder" HorizontalAlignment="Left" Margin="893,167,0,0" VerticalAlignment="Top" Width="127" />
         <ListView HorizontalAlignment="Left" Height="100" Margin="391,481,0,0" VerticalAlignment="Top" Width="100"/>
         <ListView HorizontalAlignment="Left" Height="473" Margin="142,347,0,0" VerticalAlignment="Top" Width="402"/>
         <CalendarDatePicker HorizontalAlignment="Left" Margin="142,310,0,0" VerticalAlignment="Top" Width="172"/>
-        <TextBlock HorizontalAlignment="Left" Margin="336,310,0,0" Text="Kom i sving drenge" TextWrapping="Wrap" VerticalAlignment="Top" Height="30" Width="179" SelectionChanged="TextBlock_SelectionChanged"/>
+        <TextBlock HorizontalAlignment="Left" Margin="336,310,0,0" Text="Kom i sving drenge" TextWrapping="Wrap" VerticalAlignment="Top" Height="30" Width="179"/>
 
     </Grid>
 </Page>
