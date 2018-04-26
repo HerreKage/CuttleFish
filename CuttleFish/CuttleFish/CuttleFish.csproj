@@ -95,16 +95,13 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Model\Base\DomainBase.cs" />
-    <Compile Include="Model\KasseModel.cs" />
-    <Compile Include="Model\KundeModel.cs" />
-    <Compile Include="Model\OrdreModel.cs" />
-    <Compile Include="Model\ProduktModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ViewModel\KasseViewModel.cs" />
-    <Compile Include="ViewModel\KundeViewModel.cs" />
-    <Compile Include="ViewModel\OrdreViewModel.cs" />
-    <Compile Include="ViewModel\ProduktViewModel.cs" />
+    <Compile Include="ViewPage\Kunde.xaml.cs">
+      <DependentUpon>Kunde.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewPage\Login.xaml.cs">
+      <DependentUpon>Login.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ViewPage\OrdreKatalog.xaml.cs">
       <DependentUpon>OrdreKatalog.xaml</DependentUpon>
     </Compile>
@@ -133,6 +130,14 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="ViewPage\Kunde.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ViewPage\Login.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="ViewPage\OrdreKatalog.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -147,7 +152,10 @@
       <Version>6.0.8</Version>
     </PackageReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Model\" />
+    <Folder Include="ViewModel\" />
+  </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>

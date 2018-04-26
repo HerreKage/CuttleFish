@@ -20,27 +20,11 @@ namespace CuttleFish.ViewPage
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class Startside : Page
+    public sealed partial class Login : Page
     {
-        public Startside()
+        public Login()
         {
             this.InitializeComponent();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Button_Click2(object sender, RoutedEventArgs e)
-
-        {
-            this.Frame.Navigate(typeof(OrdreKatalog));
-        }
-
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(Kunde));
         }
     }
 }

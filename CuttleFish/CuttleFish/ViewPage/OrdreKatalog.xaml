@@ -8,10 +8,12 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Button Content="Tilbage" HorizontalAlignment="Left" Margin="103,95,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Tilbage" HorizontalAlignment="Left" Margin="103,95,0,0" VerticalAlignment="Top" Width="120" Click="Button_Click"/>
         <Button Content="Opret Ordre" HorizontalAlignment="Left" Margin="337,95,0,0" VerticalAlignment="Top" Width="120"/>
         <Button Content="Update Ordre" HorizontalAlignment="Left" Margin="575,95,0,0" VerticalAlignment="Top" Width="120"/>
-        <ListView HorizontalAlignment="Left" Height="652" Margin="143,232,0,0" VerticalAlignment="Top" Width="410"/>
+        <ListView HorizontalAlignment="Left" Height="652" Margin="103,232,0,0" VerticalAlignment="Top" Width="562">
+            <DatePicker/>
+        </ListView>
 
     </Grid>
 </Page>
