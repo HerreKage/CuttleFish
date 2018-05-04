@@ -1,13 +1,34 @@
 ﻿<Page
     x:Class="CuttleFish.ViewPage.Login"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:CuttleFish.ViewPage"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition  />
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
 
+            <StackPanel Grid.Column="0" >
+                <FlipView x:Name="LoginFw"  Margin="0,0,0,0">
+
+                    <Image Source="../Assets/NapkinCaspari.png"  Stretch="Fill" />
+                    <Image Source="../Assets/Viskeservietter.jpg" Stretch="Fill"/>
+                    <Image Source="../Assets/Wave.png" Stretch="Fill"/>
+                </FlipView>
+
+            </StackPanel>
+
+            <StackPanel Background="BlanchedAlmond" Grid.Column="1" Grid.Row="0">
+                <Image Source="../Assets/CaspariLogo.png" Height="100" Width="219" Margin="10, 250, 10, 40"/>
+                <PasswordBox Width="220" Height="43" Margin="10, 10, 10, 10"/>
+                <TextBox Text="Password" Width="219" Height="43" Margin="10, 10, 10, 10"/>
+                <Button Content="Login" Height="33" Width="118" HorizontalAlignment="Center" Margin="10, 10, 10, 10" Click="Button_Click" />
+            </StackPanel>
+        </Grid>
     </Grid>
 </Page>
