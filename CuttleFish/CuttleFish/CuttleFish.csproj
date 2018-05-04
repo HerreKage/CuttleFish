@@ -116,6 +116,10 @@
     <None Include="CuttleFish_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\CaspariLogo.png" />
+    <Content Include="Assets\NapkinCaspari.png" />
+    <Content Include="Assets\Viskeservietter.jpg" />
+    <Content Include="Assets\Wave.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
