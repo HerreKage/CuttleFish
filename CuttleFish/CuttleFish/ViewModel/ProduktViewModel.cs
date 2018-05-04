@@ -1,13 +1,13 @@
-﻿using System;
+﻿using CuttleFish.Model.Base;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using CuttleFish.Model.Base;
 
-namespace CuttleFish.Model
+namespace CuttleFish.ViewModel
 {
-    class ProduktModel : DomainBase
+    class ProduktViewModel : DomainBase
     {
         public int ProduktNummer { get; set; }
         public string ProduktNavn { get; set; }

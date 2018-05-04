@@ -14,5 +14,6 @@ namespace CuttleFish.Model
         public float BoxHoejde { get; set; }
         public float BoxLaengde { get; set; }
         public float BoxBredde { get; set; }
+        public float TotalBoxStoerrelse { get; set; }
     }
 }
