@@ -13,6 +13,6 @@ namespace CuttleFish.Model
         public int KundeCVR { get; set; }
         public int KundeTelefonListeRefID { get; set; }
         public string KundeMail { get; set; }
-        public List<int> KundeTelefonListe { get; set; }
+        public Dictionary<int, int> KundeTelefonListe { get; set; }
     }
 }

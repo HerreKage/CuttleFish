@@ -12,15 +12,11 @@ namespace CuttleFish.ViewModel
         public string KundeNavn { get; set; }
         public int KundeCVR { get; set; }
         public int KundeTelefonListeRefID { get; set; }
-        public string KundeMail { get; set; }
-        public List<int> KundeTelefonListe { get; set; }
+        public string KundeMail { get ; set; }
+        public Dictionary<int, int> KundeTelefonListe { get; set; }
         public KundeViewModel()
         {
-
-        }
-        public int TelefonNr
-        {
-            get { return 0; }
+            
         }
     }
 }
