@@ -36,5 +36,10 @@ namespace CuttleFish.ViewPage
         {
             this.Frame.Navigate(typeof(Startside));
         }
+
+        private void TextBlock_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
